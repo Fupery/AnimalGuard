@@ -1,0 +1,62 @@
+#AnimalGuard Config
+
+#----------General Config----------#
+#Protect animals from other entities
+protect-from-entities: true
+
+#The message players will recieve when they attempt the denied action
+deny-message: "§r§l HEY! §r§7Sorry, you can't do this."
+
+#--------Entity Protections--------#
+# Add EntityType values to the actions below to protect them.
+ATTACK: # Called when a player causes damage to an entity
+  - PIG
+  - COW
+  - WOLF
+  - SHEEP
+  - HORSE
+  - OCELOT
+  - RABBIT
+  - CHICKEN
+  - VILLAGER
+  - MUSHROOM_COW
+
+INTERACT: # Called when a player right-clicks an entity
+  - PIG
+  - COW
+  - WOLF
+  - SHEEP
+  - HORSE
+  - OCELOT
+  - RABBIT
+  - CHICKEN
+  - VILLAGER
+  - MUSHROOM_COW
+
+LEASH: # Called when a player attaches a lead to an entity
+  - PIG
+  - COW
+  - WOLF
+  - SHEEP
+  - HORSE
+  - OCELOT
+  - RABBIT
+  - CHICKEN
+  - VILLAGER
+  - MUSHROOM_COW
+
+UNLEASH: # Called when a player removes an entity's lead
+  - PIG
+  - COW
+  - WOLF
+  - SHEEP
+  - HORSE
+  - OCELOT
+  - RABBIT
+  - CHICKEN
+  - VILLAGER
+  - MUSHROOM_COW
+
+SHEAR: # Called when a player shears a sheep or mooshroom
+  - SHEEP
+  - MUSHROOM_COW
